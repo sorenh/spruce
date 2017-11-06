@@ -12,3 +12,4 @@ deploy:
   file: spruce
   on:
     repo: sorenh/spruce
+    tags: true
