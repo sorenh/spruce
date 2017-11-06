@@ -5,7 +5,7 @@ import (
 
 	"github.com/starkandwayne/goutils/tree"
 
-	. "github.com/geofffranks/spruce/log"
+	. "github.com/sorenh/spruce/log"
 )
 
 var keysToPrune []string

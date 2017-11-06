@@ -1,5 +1,5 @@
 {
-	"ImportPath": "github.com/geofffranks/spruce",
+	"ImportPath": "github.com/sorenh/spruce",
 	"GoVersion": "go1.9",
 	"GodepVersion": "v79",
 	"Packages": [

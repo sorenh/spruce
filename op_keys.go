@@ -6,7 +6,7 @@ import (
 
 	"github.com/starkandwayne/goutils/ansi"
 
-	. "github.com/geofffranks/spruce/log"
+	. "github.com/sorenh/spruce/log"
 	"github.com/starkandwayne/goutils/tree"
 )
 
