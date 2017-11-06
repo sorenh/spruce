@@ -1,9 +1,14 @@
 language: go
-
 go:
 - 1.9
-
 sudo: false
-
 script:
 - make
+deploy:
+  provider: releases
+  skip_cleanup: true
+  api_key:
+    secure: SNRL8Xdv2orGScKPARLtseC6CiOqM2bm1KSFvy0IbHMMZgPIyz3Xxe1a5/x5kwmCvP28SaePMePROmb7hD70I4YOwwizfyoWUC+Ep2eGjS2cJ+jfNE8ZQhcGTF+S72qduGGZbe5vfYYI8fMvjPCRukunLZKLpy+6r9I0NRzYjzP/Oqmoro4GHWWs//WkmvcWGwHaeKpyr6+/G83+13G3YNmRQIOd+mDcxeK/1AY3JgFG83IpVbqip57y1gOcEhDKg3rBmSrgC+lb2nq0Xn9ubREi6qnXf1eN8m8mMD1BPK4V/T2PxHRQIToL9yUj1oiLcfD9kWdzmXL+2Xw3FaMGVNjjLyNtyOWxYFS3L/+CJcAFW+5k1d8oxit/R1aUVT4V4DP0vf4PDQT+FscsksY2h0GBHq+U8Q0lVwlizA70Cz4KvdriA7DQyp5roIzMFFw/btf6eK4eYsV6Dv4QdVFaFSZJ6d6eCrHzj0m2zreZs2qCC4XDwP7VQIS6mrl6lepDudpl2Z1IJD9L/W1hBu4+DgTE8UgROO7ieuNAjQx6BvHd75IWkrgO5b4pn80l5pOX5VL2d4syUYgl4hNEFWeusx8wWAsEvAb20fcl6hmDoVfDttwRm0fDK3nBJGYpAk13zykfNQyojrW1ZiGC8oHBk+V/S2OgFg7j1RbKD5bQ9Q8=
+  file: spruce
+  on:
+    repo: sorenh/spruce
